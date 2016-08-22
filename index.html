@@ -10,6 +10,7 @@
   <body>
     <div class="container">
       <h1>Places You've Been</h1>
+      <hr>
       <div class="row">
         <div class="col-md-8">
           <form>
@@ -33,7 +34,7 @@
               <input id="notes" type="text">
               <label for="notes">Note</label>
             </div>
-            <button type="submit" class="btn btn-primary" name="button">Submit!</button>
+            <button type="submit" class="btn btn-default" name="button">Submit!</button>
           </form>
           <br>
           <hr>
@@ -42,11 +43,13 @@
           </ul>
         </div>
         <div id="infoOutput" class="col-md-4">
-          <h3 id="infoName"></h3>
-          <p id="infoLocation"></p>
-          <p id="infoLandmarks"></p>
-          <p id="infoTime"></p>
-          <p id="infoNotes"></p>
+          <div id="hidden">
+            <h3 id="infoName"></h3>
+            <p id="infoLocation"></p>
+            <p id="infoLandmarks"></p>
+            <p id="infoTime"></p>
+            <p id="infoNotes"></p>
+          </div>
         </div>
       </div>
     </div>

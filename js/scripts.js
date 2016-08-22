@@ -28,7 +28,7 @@ $(document).ready(function() {
       $("p#infoLandmarks").text(newPlace.landmarks);
       $("p#infoTime").text(newPlace.time);
       $("p#infoNotes").text(newPlace.notes);
-      $("div#infoOutput").show();
+      $("div#hidden").show();
     });
 
     $("input#placeName").val("");
